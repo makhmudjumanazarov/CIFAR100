@@ -32,8 +32,9 @@ if img_file_buffer is not None:
 if st.button('Predict'):
     try:
         img_array = cv2.resize(img_array.astype('uint8'), (32, 32))
+        st.write(img_array.shape)
+        img_array = np.expand_dims(img_array, axis=1)
         st.write(img_array)
-#         img_array = np.expand_dims(img_array, axis=1)
 #         img_array = img_array.transpose((1,0,2,3))
 #         val = model_load.predict(img_array)
 #         output_text = labels[np.argmax(val[0])]
