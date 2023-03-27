@@ -3,7 +3,7 @@
   
 ## Steps
 <br />
-<b>Step 1.</b> Clone this repository: https://github.com/makhmudjumanazarov/cifar10.git via Terminal, cmd or PowerShell
+<b>Step 1.</b> Clone this repository: https://github.com/makhmudjumanazarov/CIFAR100.git via Terminal, cmd or PowerShell
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
@@ -26,13 +26,13 @@ python -m ipykernel install --user --name=cifar100
 <br/>
 <b>Step 5.</b> Model to Train and Evaluate
 <pre>
-Open a cifar10.ipynb file via jupyter lab or jupyter notebook commands
+Open a CIFAR100.ipynb file via jupyter lab or jupyter notebook commands
 </pre> 
 <br/>
 
 
 # CIFAR100 - Streamlit - Demo
 
-CIFAR10 via Streamlit 
+CIFAR100 via Streamlit 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/makhmudjumanazarov/CIFAR100/main/app.py)
