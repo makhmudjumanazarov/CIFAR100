@@ -1,1 +1,1 @@
-# cifar10
+# CIFAR100
